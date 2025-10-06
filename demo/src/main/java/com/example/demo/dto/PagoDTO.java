@@ -1,7 +1,6 @@
 package com.example.demo.dto;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,11 +11,11 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CompraRequest {
+public class PagoDTO {
 
-    private String cliente;
-    private List<ProductoDTO> productos;
-    private LocalDateTime fecha;
+    private Long id;
     private String metodo;
+    private double monto;
+    private LocalDateTime fecha;
 
 }

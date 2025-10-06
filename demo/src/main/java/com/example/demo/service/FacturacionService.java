@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Factura;
-import com.example.demo.repository.FacturaRepository;
+import com.example.demo.repository.facturacion.FacturaRepository;
 
 @Service
 public class FacturacionService {

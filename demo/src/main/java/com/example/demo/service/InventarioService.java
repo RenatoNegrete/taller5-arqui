@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Producto;
-import com.example.demo.repository.ProductoRepository;
+import com.example.demo.repository.inventario.ProductoRepository;
 
 @Service
 public class InventarioService {

@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Pago;
-import com.example.demo.repository.PagoRepository;
+import com.example.demo.repository.pagos.PagoRepository;
 
 @Service
 public class PagosService {
